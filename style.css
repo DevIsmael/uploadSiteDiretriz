@@ -1,0 +1,85 @@
+/*
+Theme Name: Diretriz Contabilidade
+Text Domain: Diretriz
+Version: 1.0
+Description: Site desenvolvido por IP Conceito.
+Author: IP Conceito
+Author URI: https://www.ipconceito.com.br/
+*/
+
+*{ padding: 0px; margin: 0px; }
+
+body{ background: #fff; }
+
+@font-face {
+     font-family: robotolight;
+     src: url('font/Roboto-Light.ttf');
+}
+@font-face {
+     font-family: robotobolditalic;
+     src: url('font/Roboto-BoldItalic.ttf');
+}
+@font-face {
+     font-family: robotoblack;
+     src: url('font/Roboto-Black.ttf');
+}
+@font-face {
+     font-family: robotobold;
+     src: url('font/Roboto-Bold.ttf');
+}
+@font-face {
+     font-family: robotoregular;
+     src: url('font/Roboto-Regular.ttf');
+}
+
+@media screen and (min-width: 320px) {
+.menu{ text-align: center; background: #fff; height: 100%; padding: 30px 0; border-bottom: 4px solid #514a97;}
+.menu ul{ list-style: none; background: ; margin-top: 10px; }
+.menu ul li{ text-decoration: none; display: inline; }
+.menu ul li a{text-decoration: none; text-transform: uppercase; color: #514a97; background: ; border-bottom: 4px solid #fff; padding: 10px 15px; transition: 0.5s all;}
+.menu ul li a:hover{ transition: 0.5s all; border-bottom: 4px solid #514a97;}
+.menu #botao-entrar{ text-decoration: none; font-family: sans-serif; font-size: 20px; color: #514a97; text-transform: uppercase; background: ; padding: 10px 50px; border: 3px solid #514a97; transition: 0.5s all;  float: left; }
+.menu #botao-entrar:hover{ background: #514a97; color: #fff; transition: 0.5s all;}
+
+.topo{ text-align: center; width: 100%; height: 100%; margin: 0px; padding: 0px 0; background: red; background-image: url(./img/bkg-title.png); }
+.topo img{ width: 100%; }
+.topo #logo-home{ width: 80%; margin-bottom: 25px; margin-top: 150px;}
+.topo p{ text-transform: uppercase; text-align: center; font-size: 18px; color: #514a97; }
+
+.about-cta{ text-align: center; padding: 75px 0;}
+.about-cta p{font-size: 22px; text-transform: uppercase; }
+.about-cta span{font-size: 22px; text-transform: uppercase; border-top: 2px solid #ccc;}
+.about-cta a{text-decoration: none; font-family: sans-serif; font-size: 20px; color: #fff; text-transform: uppercase; background: #514a97; padding: 10px 50px; border: 3px solid #514a97; transition: 0.5s all; margin-top: 30px;}
+.about-cta a:hover{background: #fff; border: 3px solid #514a97; color: #514a97; transition: 0.5s all;}
+.about-cta #cta-orcamento{ margin-top: 50px; }
+
+.about{ width: 100%; padding: 75px 0;}
+.about h1{text-align: left; font-weight: bold; font-size: 40px; color: #38326c; margin-top: 60px;}
+.about p{text-align: justify; text-transform: uppercase; font-size: 17px; color: #38326c;}
+.about img{ float: right; }
+.about a{text-decoration: none; font-family: sans-serif; font-size: 20px; color: #fff; text-transform: uppercase; background: #514a97; padding: 10px 50px; border: 3px solid #514a97; transition: 0.5s all; margin-top: 30px;}
+.about a:hover{background: #fff; border: 3px solid #514a97; color: #514a97; transition: 0.5s all;}
+.about #cta-orcamento{ text-align: center; margin-top: 50px; }
+
+.service{ width: 100%; height: ; background: #f4f8fc; text-align: center; padding: 70px 0;}
+.service h1{ width: 100%; color: #38326c; font-size: 40px; margin-left: 0 auto; margin-right: 0 auto; margin-bottom: 25px;  text-align: center;}
+.service img{ width: 35%; margin-left: auto; margin-right: auto; }
+.service .card{ padding:25px 5px; margin: 10px 0;}
+.service p{ font-size: 25px; color: #514a97;}
+
+.whatsapp{ width: 100%; background: #38326c; padding: 40px 0;}
+.whatsapp a{color: #fff; font-size: 35px; background: #006837; padding: 25px 30px; border-radius: 10px; transition:0.5s all;}
+.whatsapp a:hover{ text-decoration: none; background: #0b8a4e; transition:0.5s all; }
+.whatsapp #cta-wpp{ text-align: right; margin-top: 35px;}
+.whatsapp a img{ width: 6%; margin: 0 15px 0 0px; }
+.whatsapp p{ font-size: 35px; color: #fff; }
+}
+
+@media screen and (min-width: 375px) {}
+
+@media(max-width: 800px){}
+
+@media screen and (min-width: 992px) {
+
+
+}
